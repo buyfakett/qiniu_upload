@@ -1,5 +1,5 @@
 import sys
-from tt_util.qiniu_util import QiniuFunction
+from qiniu_util import QiniuFunction
 
 if len(sys.argv) != 3:
     print('传参数量不对')

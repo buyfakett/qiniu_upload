@@ -1,1 +1,2 @@
-tt_util
+PyYAML==6.0.1
+qiniu==7.12.1
