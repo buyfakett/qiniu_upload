@@ -15,7 +15,7 @@ docker run -it --rm \
 --name qiniu_upload \
 -v ./config/:/app/config/ \
 -v /data/:/data/ \
-qiniu_upload \
+registry.cn-hangzhou.aliyuncs.com/buyfakett/qiniu_upload \
 python3 main.py /data/xxx.zip xxx.zip
 ```
 
