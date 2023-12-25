@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-from .yaml_util import read_yaml
+from yaml_util import read_yaml
 
 from qiniu import put_file, Auth, BucketManager, build_batch_delete
 
